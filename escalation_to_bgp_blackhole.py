@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
  
 import requests
 import os
 import re
 import sys
 import time
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import random
 import logging
 import subprocess
